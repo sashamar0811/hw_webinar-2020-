@@ -95,8 +95,7 @@ body {
 }
 .advanatges-desc{
     max-width: 526px;
-    outline: 0;
-    
+    outline: 0;   
 }
 .advanatges-desc::-webkit-details-marker {
     display:none;
