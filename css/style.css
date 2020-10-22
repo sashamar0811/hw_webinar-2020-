@@ -1,0 +1,306 @@
+body {
+    margin: 0;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+/* Оставила этот шрифт, так как он занчительно отличался от шрифта с макета */
+.text{
+    font-family: "Arial";   
+}
+.main-titles{
+    font-size: 30px;
+    font-weight: 400;
+    color: #445161;
+    letter-spacing: normal;
+    line-height: 36px;
+    margin: 0 0 20px 0;
+}
+.text-p{
+    color: #333333; 
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 24px;
+    font-style: normal;
+    margin: 0 0 20px 0;
+}
+/* First block/header */
+.top{
+    height: 100%;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.header-class{
+    background-color: #445161;
+    color: white;
+    }
+.heading-title{
+    font-size: 60px;
+    margin: 0 0 10px 0;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.info-top{
+    list-style-type: none;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.white-box{
+    margin: 0;
+    display: block;
+    }
+.info-top>*:before{
+    content: url(../img/check-sign.png);
+    margin-right: 10px;    
+}
+/* Second block */
+.product-info-main{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 50px;
+}
+.product-info-section-content{
+    max-width: 649px;
+}
+/* Third block */
+.advanatges-info-main{
+    background: #f5f5f5; 
+    padding: 50px;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+.blue-box{
+    margin: 0;
+}
+.advanatges-info-title{
+    text-align: center;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+.advanatges-info-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;   
+}
+.advanatges-desc{
+    max-width: 526px;
+    outline: 0;   
+}
+.advanatges-desc::-webkit-details-marker {
+    display:none;
+}
+.advanatges-details{
+    margin: 0;
+    padding: 0 0 0 45px;
+    box-sizing: border-box;
+    position: relative;
+}
+.advanatges-details:before{
+    content:"";
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-size: 32px 32px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    background-image: url(../img/plus.PNG);
+    background-repeat: no-repeat;
+}
+/* Fourth block */
+.screenshots-main{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 50px 50px 30px 50px;
+}
+.screenshots-title{
+    text-align: center;
+    margin: 0 0 35px 0;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.product-card{
+    display: flex;  
+    margin: 0 0 20px 0;
+}
+.product-card-desc{
+    margin: 0;
+}
+.product-text{
+    max-width: 359px;
+    margin: 0;
+
+}
+.product-card-img{
+    margin: 0 15px 0 0;
+}
+.desc{
+    margin: 0 0 10px 0;
+    color: #445161;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    font-style: normal;
+    font-family: "Arial";
+}
+/* Fifth block */
+.reviews-main{
+    background: #f5f5f5;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 50px;
+}
+.reviews-title{
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+.background-message{
+    background-image: url(../img/message.png);
+    background-repeat: no-repeat;
+    background-size: 483px 121px;
+    margin: 0 0 10px 0;
+    width: 100%;
+}
+.reviews-content{
+ display: flex;
+ flex-wrap: wrap; 
+ justify-content: space-around;  
+}
+.message-card{
+    display: flex;
+    margin: 0 0 20px 0;
+}
+.message-text{
+    max-width: 436px;
+    font-size: 14px;
+    color: #333333;
+    line-height: 18px;
+    font-weight: 400;
+    margin: 10px 20px 20px 0;
+    padding: 0 0 0 27px;
+}
+.sign{
+    color: #989898;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0 0 0 30px;
+}
+/* Sixth block */
+.buy-main{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 50px 50px 30px 50px;
+}
+.costs{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+}
+.cost-card{
+    background-image: url(../img/blue-box.png);
+    background-repeat: no-repeat;   
+    text-align: center;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+}
+.cost-card:first-child{
+    background-size: 300px 306px;
+}
+.cost-card:nth-child(2){
+    background-size: 300px 404px;
+}
+.cost-card:last-child{
+    background-size: 300px 499px;
+}
+.type-cost{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 16px 0 16px 0;
+}
+.buy-title{
+    text-align: center;  
+    margin: 0;
+}
+.cost-list{
+    color: #ffffff;
+    line-height: 24px;
+    text-align: left;
+    width: 242px;
+    margin: 0 0 15px 0;
+    font-size: 14px;
+}
+.price{
+    color: #445162;
+    font-size: 40px;
+    background-image: url(../img/white-back.png);
+    background-repeat: no-repeat;  
+    margin: 0 2px 10px 0; 
+    padding: 10px 0 10px 0;
+}
+
+.buy-button{
+    font-size: 18px;
+    line-height: 35px;
+    font-weight: normal;
+    color: #445161;
+    background:#ffffff;;
+    border-radius: 5px;
+    text-align: center;
+    width: 260px;
+    height: 35px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+
+}
+/* Seventh block/footer */
+.footer{
+ background-color: #445162;   
+}
+.footer-heading{
+    color:#ffffff;
+    text-align: center;
+    padding-top: 53px;
+    font-size: 30px;
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-around;
+}
+.input-form{
+    background-color: #ffffff;
+    border-color: #ffffff;
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 400;
+}
+.input-form-text{
+    width: 500px;
+    height: 170px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+.copyright{
+    text-align: center;
+}
