@@ -195,6 +195,7 @@ body {
     box-sizing: border-box;
     width: 100%;
     position: relative;
+    font-style: italic;
 }
 .message-text:before {
     content: "";
@@ -273,8 +274,10 @@ body {
     font-size: 40px;
     background-color: #fff;
     margin: 0 0 10px 0;
-    padding: 9px 100px 9px 100px;
+    padding: 18px;
     box-sizing: border-box;
+    display: block;
+    width: 100%;
 }
 .btn{
     text-transform: uppercase;
@@ -402,31 +405,117 @@ body {
     color: #ffffff;
     padding: 0;
     margin: 0;
+    
   }
 .contact{
     margin: 0 0 20px 0;
 }
+.contact-info{
+    width: 350px;
+}
 .contact-1:before{
     content: url(../img/skype_icon.png);
-    margin-right: 5px;    
+    margin: 0 5px 0 0;
+    position: relative;
+    top: 5px;
+
 }
 .contact-2:before{
     content: url(../img/icq_icon.png);
-    margin-right: 5px;    
+    margin: 0 5px 0 0;
+    position: relative;
+    top: 5px;   
 }
 .contact-3:before{
     content: url(../img/email_icon.png);
-    margin-right: 5px;   
+    margin: 0 5px 0 0;
+    position: relative;
+    top: 5px;   
 }
 .contact-4:before{
     content: url(../img/phone_icon.png);
-    margin-right: 5px;   
+    margin: 0 5px 0 0;
+    position: relative;
+    top: 5px;  
 }
-.social-icons{
+/* .social-icons{
+    width: 100%;
+    display: flex;
+}
+.social{
+    display: block;
+    width: 42px;
+    height: 42px;
+    background-image: url('../img/social_buttons.png');
+    background-repeat: no-repeat;
+    
+}
+.social:first-child {
+    background-position: 0 0;
+    /* margin-right: 5px;   */
+/* } */
+  
+/* .social:nth-child(2) {
+    background-position: -42px 0;
+  }
+  
+.social:nth-child(3) {
+    background-position: -84px 0;
+  }
+  
+.social:nth-child(4) {
+    background-position: -126px 0;
+  }
+.social:nth-child(5) {
+    background-position: -168px 0; 
+    margin-right: 5px;   
+} */
+.social-icons {
+    list-style: none;
     margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+}
+.social-icons .icon {
+    display: inline-block;
+}
+.social-icons .icon-link {
+    background-image: url('../img/social_buttons.png');
+    background-repeat: no-repeat;
+    height: 42px;
+    width: 42px;
+    float: left;
+    padding: 0;
+}
+.twitter {
+    background-position: -1px 0; /* Obviously, this is obsolete to use here, but it illustrates the fact the twitter image is the first image */
+    margin: 0 5px 0 0;
+}
+
+.facebook {
+    background-position: -50px 0;
+    margin: 0 5px 0 0;
+}
+
+.instagram {
+    background-position: -99px 0;
+    margin: 0 5px 0 0;
+}
+
+.gmail {
+    background-position: -149px 0;
+    margin: 0 5px 0 0;
+}
+
+.youtube {
+    background-position: -198px 0;
+    margin: 0 5px 0 0;
 }
 .copyright{
     text-align: center;
     font-size: 12px;
-    margin: 0;
+    margin: 0 5px 0 0;
+    position: relative;
+    top: 5px;
 }
